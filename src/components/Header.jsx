@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 
 const Header = ({ text, margin, color, animate, textSize, font  }) => {
