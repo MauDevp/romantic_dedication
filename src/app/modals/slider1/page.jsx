@@ -6,6 +6,8 @@ import Stories from 'stories-react';
 import 'stories-react/dist/index.css';
 import { useEffect, useRef, useState } from 'react';
 
+import Image from 'next/image'; // Importa el componente de imagen de Next.js
+
 import Card from '../../../components/cards/Card'
 import Header from '../../../components/Header'
 import WrapperStories from '../../../components/WrapperStories'
@@ -230,8 +232,8 @@ const Slider1 = () => {
                     ref={storiesRef}
                     width={isMobile ? "410px" : "500px"}
                     height={isMobile ? "660px" : "100vh"}
-                    stories={slide}
                     onAllStoriesEnd={closeModal}
+                    stories={slide}
                 />                                                             
             </div>
         </div>
