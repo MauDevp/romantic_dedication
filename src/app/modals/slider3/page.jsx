@@ -388,11 +388,13 @@ const Slider3 = () => {
     }, []);
 
     return (
-        <div className="relative w-screen h-screen bg-black flex justify-center items-start mt-12 md:mt-0">
-            <button className="absolute z-50 top-14 md:top-1 right-0 md:right-12 p-4 cursor-pointer text-[#1b1b1b] md:text-[#e3e3e3]  rounded-full" onClick={closeModal}>
-                <IoClose size={32}/>
-            </button>
-            <div className="bg-black mt-12 md:mt-0">
+        <div className="flex w-screen h-screen bg-black justify-center items-start pt-[10%]  md:pt-0 z-50">
+            <div 
+                className="fixed z-50 top-[6%] md:top-1 right-0 md:right-12 p-4 cursor-pointer text-[#1b1b1b] md:text-[#e3e3e3]  rounded-full" 
+                onClick={() => closeModal()}>
+                {<IoClose size={34}/>}
+            </div>
+            <div className="bg-black">
                 <WrapperStories
                     ref={storiesRef}
                     width={isMobile ? "410px" : "500px"}

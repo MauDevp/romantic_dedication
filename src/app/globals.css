@@ -16,6 +16,11 @@
   }
 }
 
+html, body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity)) /* #fbcfe8 */;
+}
+
 /* styles.css */
 .Story-styles_header__-rnWL {
   position: absolute !important;

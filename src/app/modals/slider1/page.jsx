@@ -13,12 +13,13 @@ import { IoClose } from "react-icons/io5";
 import { useModal } from '../../../context/ModalContext';
 
 const Slider1 = () => {
-    const { closeModal } = useModal();
+    const { closeModal, modalContent } = useModal();
+
     const slide1 = [
         {
             type: "image",
             duration: 5000,
-            url: "/Slide1/foto0.jpg",
+            url: "/slide1/foto0.jpg",
             header: <Header 
                         text="El día que te conocí, ese día marco un antes y un después en mi vida."
                         margin="80"
@@ -31,7 +32,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 5000,
-            url: "/Slide1/foto1.jpg",
+            url: "/slide1/foto1.jpg",
             header: <Header 
                         text="Recuerdo que eras un poco enojona, pero me senti muy feliz de conocerte."
                         margin="80"
@@ -44,7 +45,7 @@ const Slider1 = () => {
         {
             type: "video",
             duration: 20000,
-            url: "/Slide1/video1.mp4",
+            url: "/slide1/video1.mp4",
             header: <Header 
                         text="Aquí fue el día que te dí tu maquina de escribir, un día loco pero feli"
                         margin="80"
@@ -57,7 +58,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 5000,
-            url: "/Slide1/foto2.jpg",
+            url: "/slide1/foto2.jpg",
             header: <Header 
                         text="asi me tenías cuando yo te conocí"
                         margin="98"
@@ -70,7 +71,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 4000,
-            url: "/Slide1/foto3.jpg",
+            url: "/slide1/foto3.jpg",
             header: <Header 
                         text="Yo intentando mostrarle lo que hacía"
                         margin="70"
@@ -83,7 +84,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 4000,
-            url: "/Slide1/foto4.jpg",
+            url: "/slide1/foto4.jpg",
             header: <Header 
                         text="Yo tratando de tomarte una foto"
                         margin="80"
@@ -96,7 +97,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 8000,
-            url: "/Slide1/foto5.jpg",
+            url: "/slide1/foto5.jpg",
             header: <Header 
                         text="Yo tratando de nuevo de tomarte una foto. No olvido ese día, fue un día que te quedaste a dormir y te dí una super clase de Artes marciales mixtas, pero andabas de malas"
                         margin="80"
@@ -109,7 +110,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 4000,
-            url: "/Slide1/foto6.jpg",
+            url: "/slide1/foto6.jpg",
             header: <Header 
                         text="Pero yo aun así quería tener esto contigo."
                         margin="-60"
@@ -122,7 +123,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 4000,
-            url: "/Slide1/foto7.jpg",
+            url: "/slide1/foto7.jpg",
             header: <Header 
                         text="Amaba fotografiarte aunque no te dejaras"
                         margin="80"
@@ -135,7 +136,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 8000,
-            url: "/Slide1/foto8.png",
+            url: "/slide1/foto8.png",
             header: <Header 
                         text="Aquí me hiciste un super amarre, y termine bien enamorado de ti"
                         margin="86"
@@ -148,7 +149,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 5000,
-            url: "/Slide1/foto9.jpg",
+            url: "/slide1/foto9.jpg",
             header: <Header 
                         text="Yo en este punto estaba así"
                         margin="-60"
@@ -161,7 +162,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 6000,
-            url: "/Slide1/foto10.jpg",
+            url: "/slide1/foto10.jpg",
             header: <Header 
                         text="Y quería ya verme así contigo"
                         margin="-60"
@@ -174,7 +175,7 @@ const Slider1 = () => {
         {
             type: "image",
             duration: 5000,
-            url: "/Slide1/foto11.jpg",
+            url: "/slide1/foto11.jpg",
             header: <Header 
                         text="Un foto bigote para terminar aquí"
                         margin="-60"
@@ -218,11 +219,13 @@ const Slider1 = () => {
     }, []);
 
     return (
-        <div className="relative w-screen h-screen bg-black flex justify-center items-start mt-12 md:mt-0">
-            <button className="absolute z-50 top-14 md:top-1 right-0 md:right-12 p-4 cursor-pointer text-[#1b1b1b] md:text-[#e3e3e3]  rounded-full" onClick={closeModal}>
-                <IoClose size={32}/>
-            </button>
-            <div className="bg-black mt-12 md:mt-0">
+        <div className="flex w-screen h-screen bg-black justify-center items-start pt-[10%]  md:pt-0 z-50">
+            <div 
+                className="fixed z-50 top-[6%] md:top-1 right-0 md:right-12 p-4 cursor-pointer text-[#1b1b1b] md:text-[#e3e3e3]  rounded-full" 
+                onClick={() => closeModal()}>
+                {<IoClose size={34}/>}
+            </div>
+            <div className="bg-black">
                 <WrapperStories
                     ref={storiesRef}
                     width={isMobile ? "410px" : "500px"}
