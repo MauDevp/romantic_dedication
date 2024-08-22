@@ -15,7 +15,7 @@ import { useModal } from '../../../context/ModalContext';
 const Slider1 = () => {
     const { closeModal, modalContent } = useModal();
 
-    const slide1 = [
+    const slide = [
         {
             type: "image",
             duration: 5000,
@@ -230,7 +230,7 @@ const Slider1 = () => {
                     ref={storiesRef}
                     width={isMobile ? "410px" : "500px"}
                     height={isMobile ? "660px" : "100vh"}
-                    stories={slide1}
+                    stories={slide}
                     onAllStoriesEnd={closeModal}
                 />                                                             
             </div>

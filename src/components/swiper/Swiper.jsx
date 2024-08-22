@@ -32,7 +32,7 @@ const SwiperSlider = () => {
                 <SwiperSlide>
                     <div className='flex-grow flex flex-col justify-center items-center'>
                         <h1 className='text-center text-3xl my-4 w-[86%]'>El inicio de una historia</h1>
-                        <StoryGroup onClick={() => openModal(<Slider1 />)} route={'/Slide1/foto6.jpg'} />
+                        <StoryGroup onClick={() => openModal(<Slider1 />)} route={'/slide1/foto6.JPG'} />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
