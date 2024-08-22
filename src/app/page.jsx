@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <ModalProvider>  
-      <div className="min-h-screen bg-pink-100 p-8 text-gray-800 flex flex-col">
+      <div className="min-h-screen bg-pink-200 p-8 text-gray-800 flex flex-col">
         {/* <BackgroundMusic /> */}
         <h1 className="text-4xl font-bold text-center text-red-600 animate-pulse">
           Nuestra Historia de amor

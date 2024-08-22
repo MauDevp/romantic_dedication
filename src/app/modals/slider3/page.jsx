@@ -20,9 +20,22 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto30.jpg",
             header: <Header 
-                        text="Ese día llego algo a nuestras vidas que no esperábamos pero que nos hizo muy feliz"
+                        text="Amo mucho que me envies fotos de atardeceres, y me encanta que te gusten. 🌄"
                         margin="80"
-                        color="#E6E6E6"
+                        color="#292929"
+                        animate={true}
+                        textSize="text-3xl"
+                        font="font-bold"
+                    />,
+        },
+        {
+            type: "image",
+            duration: 3000,
+            url: "/slide3/foto31.jpg",
+            header: <Header 
+                        text="Vieja preciosota !!! ❤️😘"
+                        margin="80"
+                        color="#D3D3D3"
                         animate={false}
                         textSize="text-3xl"
                         font="font-bold"
@@ -31,11 +44,11 @@ const Slider3 = () => {
         {
             type: "image",
             duration: 5000,
-            url: "/slide3/foto31.jpg",
+            url: "/slide3/foto32.jpg",
             header: <Header 
-                        text="Fue también un día un poco extraño, y aunque me queje me gusto mucho."
+                        text="Otro atardecer. 🌄"
                         margin="80"
-                        color="#D3D3D3"
+                        color="#292929"
                         animate={false}
                         textSize="text-2xl"
                         font="font-bold"
@@ -43,11 +56,11 @@ const Slider3 = () => {
         },
         {
             type: "image",
-            duration: 5000,
-            url: "/slide3/foto32.jpg",
+            duration: 3000,
+            url: "/slide3/foto33.jpg",
             header: <Header 
-                        text="Ese día llego esta chiquita a nuestras manos. ❤️❤️😻"
-                        margin="98"
+                        text="Empezaban ya a crecer, crecían rápido los chamacos. 🥴"
+                        margin="80"
                         color="#FFF"
                         animate={false}
                         textSize="text-2xl"
@@ -56,23 +69,10 @@ const Slider3 = () => {
         },
         {
             type: "image",
-            duration: 5000,
-            url: "/slide3/foto33.jpg",
-            header: <Header 
-                        text="Y eran la una para la otra 👯‍♀️"
-                        margin="80"
-                        color="#000"
-                        animate={false}
-                        textSize="text-2xl"
-                        font="font-bold"
-                    />,
-        },
-        {
-            type: "image",
-            duration: 20000,
+            duration: 3000,
             url: "/slide3/foto34.jpg",
             header: <Header 
-                        text="Pero a como hacía vagancias la pequeña 😾"
+                        text=""
                         margin="80"
                         color="#FFF"
                         animate={false}
@@ -82,23 +82,10 @@ const Slider3 = () => {
         },
         {
             type: "video",
-            duration: 3300,
+            duration: 5200,
             url: "/slide3/video5.mp4",
             header: <Header 
-                        text="Pero aun así la amaba mucho y la cuidaba con todo mi corazón. ❤️"
-                        margin="80"
-                        color="#FFF"
-                        animate={false}
-                        textSize="text-xl"
-                        font="font-semibold"
-                    />,
-        },
-        {
-            type: "image",
-            duration: 20000,
-            url: "/slide3/foto35.jpg",
-            header: <Header 
-                        text="Era igual de inquieta que nosotros 🫨🥴"
+                        text="Veee nomas, yo no chiquie a Jose Luis, fue Marecita. 😾🥴🥺"
                         margin="80"
                         color="#000"
                         animate={false}
@@ -108,12 +95,25 @@ const Slider3 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 4000,
+            url: "/slide3/foto35.jpg",
+            header: <Header 
+                        text="A como se querían. ❤️🐈"
+                        margin="80"
+                        color="#000"
+                        animate={false}
+                        textSize="text-2xl"
+                        font="font-bold"
+                    />,
+        },
+        {
+            type: "image",
+            duration: 4000,
             url: "/slide3/foto36.jpg",
             header: <Header 
-                        text="Y tan preciosa como tú. 🤩"
-                        margin="-60"
-                        color="#AC008D"
+                        text="Y la Mar tan modelo como siempre, le encantaba la cámara. 📷"
+                        margin="-30"
+                        color="#9B575C"
                         animate={false}
                         textSize="text-2xl"
                         font="font-bold"
@@ -121,51 +121,51 @@ const Slider3 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 3000,
             url: "/slide3/37.jpg",
             header: <Header 
-                        text="Después inesperadamente llego otro chiquito a nuestras vidas. 🫨"
-                        margin="80"
-                        color="#000E88"
+                        text="Vieja Chula. 🤩"
+                        margin="92"
+                        color="#C54F49"
                         animate={false}
-                        textSize="text-2xl"
+                        textSize="text-4xl"
                         font="font-bold"
                     />,
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 3000,
             url: "/slide3/foto37.jpg",
             header: <Header 
-                        text="Era todo tímido y parecía perdido. 🥺"
-                        margin="-80"
-                        color="#000E88"
+                        text="Vieja preciosa. 😍"
+                        margin="-88"
+                        color="#C54F49"
                         animate={false}
-                        textSize="text-3xl"
+                        textSize="text-4xl"
                         font="font-extrabold"
                     />,
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 5000,
             url: "/slide3/foto38.jpg",
             header: <Header 
-                        text="taba igual de güero que tu, y igual de café que yo"
-                        margin="72"
+                        text="Aplicándote un remedio casero, por que a alguien se le ocurrió meter la mano al horno"
+                        margin="88"
                         color="#141414"
                         animate={false}
-                        textSize="text-2xl"
+                        textSize="text-3xl"
                         font="font-bold"
                     />,
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 3000,
             url: "/slide3/foto39.jpg",
             header: <Header 
-                        text="recuerdo que siempre mientras te cocinaba, te quedabas tomándote fotos bonitas. 📸❤️"
+                        text="Foto mía pa que no digas que no salí. 📸"
                         margin="-88"
-                        color="#1A1A1A"
+                        color="#000000"
                         animate={false}
                         textSize="text-2xl"
                         font="font-bold"
@@ -173,10 +173,10 @@ const Slider3 = () => {
         },
         {
             type: "image",
-            duration: 5000,
+            duration: 3000,
             url: "/slide3/foto40.jpg",
             header: <Header 
-                        text="Era un bbcito chiquito. 🥺🍼🐈"
+                        text="Foto baja calidad por que no encontré la original. 📷"
                         margin="-88"
                         color="#EAEAEA"
                         animate={false}
@@ -186,10 +186,10 @@ const Slider3 = () => {
         },
         {
             type: "image",
-            duration: 5000,
+            duration: 8000,
             url: "/slide3/foto41.jpg",
             header: <Header 
-                        text=""
+                        text="Aaah vieja chula, como me encanta verde dormir y verte despertar, son de las cosas que mas disfruto. 💤💓"
                         margin="-60"
                         color="#000"
                         animate={false}
@@ -199,11 +199,11 @@ const Slider3 = () => {
         },
         {
             type: "image",
-            duration: 5000,
+            duration: 8000,
             url: "/slide3/foto42.jpg",
             header: <Header 
-                        text="Foto pompis que me tomaste con Jose Luis. 📷😾"
-                        margin="-60"
+                        text="Ahhh que preciosa cara de enojada, me encanta tu carita, me encantas. 😾😍💓"
+                        margin="-100"
                         color="#000"
                         animate={false}
                         textSize="text-3xl"
@@ -215,9 +215,9 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto43.jpg",
             header: <Header 
-                        text=""
+                        text="Cuando me sacaste a una biblioteca. Me encanto también ese día. ❤️📚"
                         margin="-60"
-                        color="#000"
+                        color="#FFF"
                         animate={false}
                         textSize="text-3xl"
                         font="font-bold"
@@ -228,9 +228,9 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto44.jpg",
             header: <Header 
-                        text=""
-                        margin="-60"
-                        color="#000"
+                        text="Ahí andaba yo todo emocionado. 😮"
+                        margin="-100"
+                        color="#FFF"
                         animate={false}
                         textSize="text-3xl"
                         font="font-bold"
@@ -241,8 +241,8 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto45.jpg",
             header: <Header 
-                        text="Ve nomas esos ojitos azules. 🩵😍"
-                        margin="-60"
+                        text="Y tu tan preciosa. 💓💓💓"
+                        margin="100"
                         color="#000"
                         animate={false}
                         textSize="text-3xl"
@@ -254,9 +254,9 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto46.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
+                        text="Andaba bien loco por tí. ❤️💘"
                         margin="-30"
-                        color="#000"
+                        color="#FFF"
                         animate={false}
                         textSize="text-3xl"
                         font="font-bold"
@@ -267,7 +267,7 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto47.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
+                        text="😍😍😍"
                         margin="-30"
                         color="#000"
                         animate={false}
@@ -280,24 +280,24 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto48.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
+                        text="Ese recuerdo fue otro bonito día junto a tí. 💕"
                         margin="-30"
-                        color="#000"
+                        color="#FFF"
                         animate={false}
-                        textSize="text-3xl"
+                        textSize="text-2xl"
                         font="font-bold"
                     />,
         },
         {
             type: "image",
-            duration: 5000,
+            duration: 6000,
             url: "/slide3/foto49.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
-                        margin="-30"
-                        color="#000"
+                        text="Mi chiquita la mas belicosa. ❤️🔫   Ó la bebes o la derramas"
+                        margin="-40"
+                        color="#FFF"
                         animate={false}
-                        textSize="text-3xl"
+                        textSize="text-2xl"
                         font="font-bold"
                     />,
         },
@@ -306,9 +306,9 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto50.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
-                        margin="-30"
-                        color="#000"
+                        text=""
+                        margin="-50"
+                        color="#FFF"
                         animate={false}
                         textSize="text-3xl"
                         font="font-bold"
@@ -319,7 +319,7 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto51.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
+                        text=""
                         margin="-30"
                         color="#000"
                         animate={false}
@@ -332,11 +332,11 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto52.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
-                        margin="-30"
-                        color="#000"
+                        text="La mas penuda del condado."
+                        margin="-80"
+                        color="#FFF"
                         animate={false}
-                        textSize="text-3xl"
+                        textSize="text-2xl"
                         font="font-bold"
                     />,
         },
@@ -345,11 +345,11 @@ const Slider3 = () => {
             duration: 5000,
             url: "/slide3/foto53.jpg",
             header: <Header 
-                        text="Fueron un gran regalo de la vida, junto contigo, de las cosas mas preciadas que pude haber recibido. ❤️"
+                        text="Con mucho amor para tí. ❤️❤️❤️ Quiero seguir creando muchos recuerdo contigo..."
                         margin="-30"
-                        color="#000"
+                        color="#FFFFFF"
                         animate={false}
-                        textSize="text-3xl"
+                        textSize="text-2xl"
                         font="font-bold"
                     />,
         },
@@ -388,7 +388,7 @@ const Slider3 = () => {
     }, []);
 
     return (
-        <div className="relative w-screen h-screen bg-black flex justify-center items-start">
+        <div className="relative w-screen h-screen bg-black flex justify-center items-start mt-12 md:mt-0">
             <div className="absolute z-50 top-14 md:top-1 right-0 md:right-12 p-4 cursor-pointer text-[#1b1b1b] md:text-[#e3e3e3]  rounded-full" onClick={closeModal}><IoClose size={32}/></div>
             <div className="bg-black mt-12 md:mt-0">
                 <WrapperStories

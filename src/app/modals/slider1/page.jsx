@@ -218,7 +218,7 @@ const Slider1 = () => {
     }, []);
 
     return (
-        <div className="relative w-screen h-screen bg-black flex justify-center items-start">
+        <div className="relative w-screen h-screen bg-black flex justify-center items-start mt-12 md:mt-0">
             <div className="absolute z-50 top-14 md:top-1 right-0 md:right-12 p-4 cursor-pointer text-[#1b1b1b] md:text-[#e3e3e3]  rounded-full" onClick={closeModal}><IoClose size={32}/></div>
             <div className="bg-black mt-12 md:mt-0">
                 <WrapperStories

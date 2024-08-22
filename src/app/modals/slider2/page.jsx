@@ -95,7 +95,7 @@ const Slider2 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 5000,
             url: "/slide2/foto17.jpg",
             header: <Header 
                         text="Era igual de inquieta que nosotros 🫨🥴"
@@ -108,7 +108,7 @@ const Slider2 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 5000,
             url: "/slide2/foto18.jpg",
             header: <Header 
                         text="Y tan preciosa como tú. 🤩"
@@ -121,7 +121,7 @@ const Slider2 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 5000,
             url: "/slide2/foto19.jpg",
             header: <Header 
                         text="Después inesperadamente llego otro chiquito a nuestras vidas. 🫨"
@@ -134,7 +134,7 @@ const Slider2 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 5000,
             url: "/slide2/foto20.jpg",
             header: <Header 
                         text="Era todo tímido y parecía perdido. 🥺"
@@ -147,7 +147,7 @@ const Slider2 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 5000,
             url: "/slide2/foto21.jpg",
             header: <Header 
                         text="taba igual de güero que tu, y igual de café que yo"
@@ -160,7 +160,7 @@ const Slider2 = () => {
         },
         {
             type: "image",
-            duration: 20000,
+            duration: 5000,
             url: "/slide2/foto22.jpg",
             header: <Header 
                         text="recuerdo que siempre mientras te cocinaba, te quedabas tomándote fotos bonitas. 📸❤️"
@@ -323,7 +323,7 @@ const Slider2 = () => {
     }, []);
 
     return (
-        <div className="relative w-screen h-screen bg-black flex justify-center items-start">
+        <div className="relative w-screen h-screen bg-black flex justify-center items-start mt-12 md:mt-0">
             <div className="absolute z-50 top-14 md:top-1 right-0 md:right-12 p-4 cursor-pointer text-[#1b1b1b] md:text-[#e3e3e3]  rounded-full" onClick={closeModal}><IoClose size={32}/></div>
             <div className="bg-black mt-12 md:mt-0">
                 <WrapperStories
