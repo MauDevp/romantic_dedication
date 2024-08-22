@@ -16,18 +16,14 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* styles.css */
+.Story-styles_header__-rnWL {
+  position: absolute !important;
+  top: auto !important;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  /* display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100% !important; */
+  width: 100% !important; 
 }
